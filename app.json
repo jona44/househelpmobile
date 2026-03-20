@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "househelpmobile",
+    "name": "House Help",
     "slug": "househelpmobile",
     "version": "1.0.0",
+    "scheme": "househelpmobile",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/applogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -24,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
